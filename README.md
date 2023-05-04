@@ -1,24 +1,22 @@
 # Message Board App
 
-Ceci est l'application frontend du Tableau de Messages, une application de chat en temps réel simple qui permet aux utilisateurs de rejoindre des salons de discussion et d'échanger des messages avec d'autres utilisateurs. L'application est construite en utilisant HTML, CSS et JavaScript.
+Voici l'application MessageBoard, une application de chat en temps réel permettant aux utilisateurs de rejoindre des salons de discussion et d'échanger des messages avec d'autres utilisateurs.
+Voici les fonctionnalités :
 
-## Fonctionnalités
-
-- Inscription et sélection des utilisateurs
-- Création et sélection des salons
-- Échange de messages en temps réel entre les utilisateurs
-- Stockage des sessions pour les données des utilisateurs et des salons
-- Interface utilisateur moderne
+    - Inscription et sélection des utilisateurs
+    - Création et sélection des salons
+    - Échange de messages entre les utilisateurs
+    - Stockage des sessions pour les données des utilisateurs et des salons
 
 ## Configuration
 
-Pour configurer l'application frontend, suivez ces étapes:
+Pour configurer l'application, suivez ces étapes:
 
 1. Clonez le dépôt sur votre machine :
 
 ```sh
-git clone https://github.com/ceocheschool/tested-vanilla-js-app
-cd tested-vanilla-js-app
+git clone https://github.com/Khazeral/MessageBoardJS.git
+cd MessageBoardJS
 ```
 
 2. Installez les dépendances du projet pour les tests à l'aide de `npm` :
@@ -39,19 +37,11 @@ npm install -g http-server
 http-server
 ```
 
-5. Ouvrez l'URL indiquée dans la console (`http://localhost:8080`) dans votre navigateur préféré.
+5. Ouvrez l'URL `http://localhost:8080`
 
 ## Tests
 
-Pour exécuter les tests, suivez ces étapes :
-
-1. Decommentez l'import axios dans le fichier `src/api/index.js` :
-
-```js
-// import axios from 'axios';
-```
-
-2. Exécutez la commande suivante à la racine du projet :
+Pour exécuter les tests, exécuter cette commande :
 
 ```sh
 npm test
